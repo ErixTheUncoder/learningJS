@@ -12,6 +12,8 @@ const dog = {
   }
 }
 
+console.log(dog);
+
 // const anotherDog = {
 //   name: "Marley",
 //   breed: "Chocolate",
@@ -27,10 +29,10 @@ const dog = {
 
 function getDog(name,breed,age,weightKg){
   return{
-    name:name,
-    breed:breed,
-    age:age,
-    weightKg:weightKg,
+    name, //if the key and value have the same name you can reduce redandunce
+    breed,
+    age,
+    weightKg,
     eat(){ 
           console.log("Chomp!");
         },
@@ -40,4 +42,5 @@ function getDog(name,breed,age,weightKg){
   }
 }
 
-const anotherDog = getDog("Marley","Chocolate Lab",3,20)
+const anotherDog = getDog("Marley","Chocolate Lab",3,20);
+console.log(anotherDog);
