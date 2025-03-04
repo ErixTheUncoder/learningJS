@@ -1,4 +1,4 @@
-//JS objects are to store key value PAIRS, such as state(properties) and behaviour(functions)aka. method
+//Factory function are to create new object, reduce code dup and need for Copy & paste
 const dog = {
   name: "Max",
   breed: "Dachshund",
