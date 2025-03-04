@@ -19,5 +19,7 @@ function OddNums(array){
 }
 
 let arrNum = [3,2,1,4,5,6,78,9,8,0,10];
+console.log("Even numbers are,");
 EvenNums(arrNum);
+console.log("Odd numbers are");
 OddNums(arrNum);
