@@ -9,9 +9,13 @@
     <h1>
         Javascript
     </h1>
+    <h2 id="name"></h2>
+    <button><a href="page.html">Next Page</a></button>
     <script>
         const userInput = prompt("Please enter your name:");
         console.log(userInput);
+
+        document.getElementById("name").innerHTML=userInput;
     </script>
 </body>
 </html>
